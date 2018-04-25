@@ -1,0 +1,20 @@
+CREATE TABLE Locations (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(55) NULL,
+  `lat` FLOAT NOT NULL,
+  `long` FLOAT NOT NULL,
+  PRIMARY KEY (`id`));
+CREATE TABLE Goals ( `lat` FLOAT NOT NULL, `long` FLOAT NOT NULL, `elev` FLOAT NULL);
+CREATE TABLE `Cardata` (
+  `velocity` FLOAT NOT NULL,
+  `lat` FLOAT NOT NULL,
+  `lon` FLOAT NOT NULL,
+  `elevation` FLOAT NOT NULL,
+  `battery` FLOAT NOT NULL,
+  `velodyne` VARCHAR(15) NULL,
+  `lightware` VARCHAR(15) NULL,
+  `rplidar` VARCHAR(15) NULL,
+  `timestamp` VARCHAR(45) NULL,
+  `camera` VARCHAR(15) NULL);
+

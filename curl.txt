@@ -1,0 +1,4 @@
+curl -H "Content-Type: application/json" -X POST -d '{ "goals": [{ "lat": 43.23432, "long": 31321.12321312, "elevation": 323.11},{ "lat": 5435.65, "long": 876.56, "elevation": 12.21},{ "lat": 5435.5, "long": 656.65, "elevation": 980.98},{ "lat": 2, "long": 1, "elevation": -1.7} ]}' http://127.0.0.1:5000/goals
+
+
+curl -H "Content-Type: application/json" -X POST -d '{ "newData": { "battery": 35.1, "camera": "BROKEN", "elevation": 1.11, "lat": 78.4, "lightware": "GONE DARK", "lon": -70.1, "rplidar": "FEELING GOOD", "velocity": 98.2, "velodyne": "COULD BE BETTER" }}' http://192.168.99.72:5000/cardata
